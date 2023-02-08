@@ -1,0 +1,90 @@
+body {
+  background-color: #abd1c6;
+  font-family: 'Heebo', sans-serif;
+  color: rgb(248, 246, 246);
+  font-size: large;
+  font-weight: 300;
+  line-height: normal;
+}
+
+h1, h2, h3 {
+color: #fffffe;
+font-family: Arial, Helvetica, sans-serif;
+font-size: larger;
+
+}
+
+.fa-brands {
+  color: #f9bc60;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.fa-brands:hover {
+  cursor: pointer;
+  color: #fffffe;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+
+}
+
+.card {
+    background-color: #004643;
+    padding: 50px;
+    border-radius: 20px;
+    margin: 60px;
+    text-align: center;
+    border: 1px solid lightgrey;
+}
+
+#presentation {
+  background-color: #004643;
+  text-align: center;
+}
+
+#img-circle {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.bouton-jaune{
+  background-color: #f9bc60;
+  color: BLACK;
+  padding: 5px 15px;
+  border-radius: 4px;
+  font-style: bold;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.bouton-jaune:hover{
+  cursor: pointer;
+  background-color: #fffffe;
+  color: BLACK;
+  font-size: 16px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 340px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 200px;
+  }
+}
